@@ -1,14 +1,13 @@
-# README Generator
+# README-Generator
   ##  Repository: 
-  http://github.com/BCole37/Professional README Generator
+  http://github.com/BCole37/Professional-README-Generator
 
   ## Table of Contents
-    [Description](#Description)
-    [Installation](#Installation)
-    [Usage](#Usage)
-    [Contributing](#Contributing)
-    [Tests](#Tests)
-    [Questions](#Questions)
+  - [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [tests](#tests)
      
   ## Description
     This Project allows easy creation of a professional README to use for any project 
@@ -23,7 +22,8 @@
     Clone locally then make changes and put them up for review on Github
 
   ## Tests
-    See Video
+    VideoLink here
+
   ## Questions
     If you have any questions reach out.
     Email: Brysonc98@live.com

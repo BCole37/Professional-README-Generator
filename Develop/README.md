@@ -22,10 +22,10 @@
     Clone locally then make changes and put them up for review on Github
 
   ## Tests
-    Put Video Link here
+    Update With Video Link
 
   ## Questions
     If you have any questions reach out.
-    Email: brysonc98@live.com
+    Email: Brysonc98@live.com
     Github: [BCole37] (http://github.com/BCole37)
   

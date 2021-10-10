@@ -41,7 +41,8 @@ const questions = [
       {
         type: "input",
         message: "Example Tests",
-        name: "tests"
+        name: "tests",
+        default: "Update With Video Link"
       },   
       {
         type: "input",

@@ -11,22 +11,6 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 
-function unpackTOC(data) {
-  let tocArray = [];
-  const allowed = ['Description', 'Installation', 'Usage', 'Contributing', 'tests', 'Questions'];
-  const filtered = Object.keys(data)
-                  .filter(key => allowed.includes(key))
-                  .reduce((obj, key) => {
-                      obj[key] = data[key];
-                  return obj;
-                  }, {});
-
-  Object.entries(filtered).forEach(([key, value]) => {
-      tocArray.push(`- [${key}](#${key.toLowerCase()})`);
-  });
-  return tocArray.join('\n');
-}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
     return `# ${data.Title}
@@ -34,7 +18,11 @@ function generateMarkdown(data) {
   http://github.com/${data.github}/${data.Repository}
 
   ## Table of Contents
-  ${unpackTOC(data)}
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [tests](#tests)
      
   ## Description
     ${data.Description}

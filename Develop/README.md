@@ -4,10 +4,10 @@
 
   ## Table of Contents
   - [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [tests](#tests)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [tests](#tests)
      
   ## Description
     This Project allows easy creation of a professional README to use for any project 
@@ -22,10 +22,10 @@
     Clone locally then make changes and put them up for review on Github
 
   ## Tests
-    VideoLink here
+    Put Video Link here
 
   ## Questions
     If you have any questions reach out.
-    Email: Brysonc98@live.com
+    Email: brysonc98@live.com
     Github: [BCole37] (http://github.com/BCole37)
   
